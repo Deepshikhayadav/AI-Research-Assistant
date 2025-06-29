@@ -1,0 +1,2 @@
+google-generativeai
+duckduckgo-search
