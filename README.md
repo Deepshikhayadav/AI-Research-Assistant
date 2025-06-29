@@ -28,6 +28,11 @@ The Writer Agent assists in drafting research documents, literature reviews, and
 
 - **Python**: Backend logic, data processing, and orchestration of agents.
 - **Gemini API**: Natural language processing and AI-driven functionalities.
+- **MCP Server**: To manage and coordinate communication between multiple clients.
 - **DuckDuckGo**: Browsing and data search capabilities.
 - **Requests**: API communication and web data retrieval.
+- **FastMCP**: Used for fast, distributed message passing and coordination.
+- **Uvicorn**: ASGI server for running asynchronous Python web applications.
+- **FastAPI**: For building fast, scalable APIs.
+
 
