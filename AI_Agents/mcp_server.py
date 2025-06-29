@@ -16,6 +16,7 @@ class MCPServer:
         }
         self.agents = {}
         self.workflow_complete = False
+        self.response = None
         self.results = {}
         self.lock = threading.Lock()
 
@@ -46,6 +47,7 @@ class MCPServer:
                     self.workflow_complete = True
                     print("\nResearch completed!")
                     print(json.dumps(self.results, indent=2))
+                    self.response = json.dumps(self.results, indent=2)
 
 
  

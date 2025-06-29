@@ -1,2 +1,6 @@
 google-generativeai
 duckduckgo-search
+fastmcp
+mcp[cli]
+uvicorn
+fastapi
